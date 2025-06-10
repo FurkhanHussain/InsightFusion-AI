@@ -1,25 +1,34 @@
-# 📊 InsightRAG: Business Document + CSV Q&A Assistant
+# 🤖 InsightFusion AI: GenAI-Powered Business Document Assistant
 
-**InsightRAG** is a Retrieval-Augmented Generation (RAG) application that lets you ask natural language questions over business documents like PDFs and structured CSV reports — with contextual, source-cited answers.
+**InsightFusion AI** is a GenAI-powered Retrieval-Augmented Generation (RAG) system that enables users to ask natural language questions across combined structured (CSV) and unstructured (PDF) business documents — returning accurate, citation-backed answers using local LLMs and embeddings.
+
+---
 
 ### ✅ Features
-- 🔍 Ingest and combine **unstructured (PDF)** and **structured (CSV)** data
-- 🤖 Powered by **Ollama + LangChain** (uses `llama3` + `nomic-embed-text`)
+- 🔍 Combine **PDF reports** and **CSV data** for unified Q&A
+- 🤖 Powered by **LangChain + Ollama (LLaMA3 + embeddings)**
 - 💬 Ask natural questions like "Why did Q4 revenue drop?"
-- 📎 Returns relevant answers from both data types with citations
-- 🖥️ Optional Streamlit UI for interactive querying
+- 📎 Context-aware answers with traceable source references
+- 🖥️ Optional **Streamlit UI** for interactive exploration
 
 ---
 
 ### 🛠️ Tech Stack
 
 - Python 3.10+
-- LangChain
-- Ollama (`llama3` + `nomic-embed-text`)
-- FAISS (local vector store)
-- PyMuPDF (for PDF parsing)
-- Pandas (for CSV parsing)
-- Streamlit (optional web UI)
+- LangChain, FAISS
+- Ollama (with `llama3` + `nomic-embed-text`)
+- PyMuPDF, Pandas
+- Streamlit (for web UI)
+
+---
+
+### 💼 Real-World Use Cases
+
+- Analyze financial reports to explain performance changes
+- Summarize legal or policy documents for quick review
+- Extract key trends from monthly departmental CSVs
+- Enable customer service agents to query internal PDFs + reports
 
 ---
 
