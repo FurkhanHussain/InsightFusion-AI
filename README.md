@@ -84,6 +84,3 @@ insightrag/
 - You can switch to other LLMs or embedding models by modifying `qa_chain.py` and `vectorstore.py`.
 
 ---
-
-### ✨ Author
-Built as a portfolio-ready RAG project to help companies make better use of their data — and help you get hired. 🚀
